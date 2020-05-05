@@ -1,0 +1,97 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f0f0f0;
+  font-family: "Baloo Bhai 2";
+}
+
+.navbar {
+  background-color: #04bf8a;
+  padding-left: 15px;
+  color: white;
+  font-family: "Baloo Bhai 2";
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-profile{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.input {
+  height: 50px;
+  width: 350px;
+  border-radius: 15px;
+  font-family: "Baloo Bhai 2";
+  color: #565656;
+  font-size: 25px;
+  outline: none;
+  margin: none;
+  border: none;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.searcher{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-searcher{
+  width: 900px;
+}
+
+/*Contenedor principal de las imagenes*/
+.post-photos{
+  background-color: #F5BE40;
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 300px;
+  height: 440px;
+  border-radius: 20px;
+}
+/*Imagen principal*/
+.post-photos_main_img{
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/*contenedor fotos secundarias*/
+.post-secondary_photos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*contenedor foto seconudaria individual*/
+.container-secondary_photo{
+  width: 100px;
+  height: 130px;
+  overflow: hidden;
+}
+
+/*imagen secundaria*/
+.post-photos_secondary_img{
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(8px);
+  position: absolute;
+}
+
+.post-photos_secondary_img:hover{
+  width: 130px;
+  height: 160px;
+  z-index: 100;
+}
